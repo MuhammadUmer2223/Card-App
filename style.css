@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.btn-item{
+    background-color:   #005082;  ;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 25px;
+    color: white;
+}
+.card{
+    background-color:  #ff9a3c; ;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: none;
+    gap:10px;
+
+}
+h1{
+    text-align: center;
+}
