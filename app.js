@@ -229,10 +229,10 @@ function renderProduct(arr){
 container.innerHTML = "";
 arr.map((item)=>{
     container.innerHTML += `<div class="card">
-                                <h3>${item.category}</h3>
-                                <h3>${item.brand}</h3>
-                                <h3>${item.price}</h3>
-                            </div>`
+                            <ol><li>${item.category}</li>
+                            <li>${item.brand}</li>
+                        <li>${item.price}</li></ol>
+                        </div>`
 })
 }
 
